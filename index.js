@@ -10,15 +10,17 @@ var w = function(s) {
 };
 
 function runSpeedTest() {
-  w('\n');
-  w('Starting test');
+  w('Starting speed test'.yellow);
   w('\n');
   w(new Date().toString().blue);
   PythonShell.run('speedtest-cli.py', {
     args: ['--simple'],
     scriptPath: 'lib'
   }, function (err, results) {
-    if (err) w('\n' + err.red + '\n');
+    if (err) {
+      w('\n' + err.red + '\n');
+      return;
+    };
 
     w('\n\n');
     w('Test successful'.green);
@@ -36,8 +38,7 @@ function runSpeedTest() {
   });
 };
 
-exports.run = function() {
-  w('\nStarting speed test.');
+exports.run = run = function() {
   
   runSpeedTest();
   

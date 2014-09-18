@@ -3,6 +3,6 @@
 
 process.title = 'Speedtest CLI';
 
-var Speedtest = require('../lib/index');
+var Speedtest = require('../index');
 
 Speedtest.run();

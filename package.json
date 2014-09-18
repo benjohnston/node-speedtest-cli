@@ -5,6 +5,10 @@
   "bin": {
     "speedtest-cli": "bin/speedtest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tkh44/node-speedtest-cli.git"
+  },
   "contributors": [
     {
       "name": "Kye Hohenberger",

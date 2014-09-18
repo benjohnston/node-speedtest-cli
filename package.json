@@ -1,0 +1,22 @@
+{
+  "name": "node-speedtest-cli",
+  "version": "0.0.1",
+  "description": "Chcek speeds using speedtest.net from command line",
+  "bin": {
+    "speedtest-cli": "bin/speedtest"
+  },
+  "contributors": [
+    {
+      "name": "Kye Hohenberger",
+      "email": "kye.hohenberger@gmail.com",
+      "web": "https://twitter.com/tkh44"
+    },
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^0.6.2",
+    "optimist": "^0.6.1",
+    "python-shell": "0.0.3"
+  }
+}

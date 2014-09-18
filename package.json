@@ -1,6 +1,6 @@
 {
   "name": "node-speedtest-cli",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Chcek speeds using speedtest.net from command line",
   "bin": {
     "speedtest-cli": "bin/speedtest"
